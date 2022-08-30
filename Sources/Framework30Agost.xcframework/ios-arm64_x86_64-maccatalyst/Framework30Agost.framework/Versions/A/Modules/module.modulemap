@@ -1,0 +1,11 @@
+framework module Framework30Agost {
+  umbrella header "Framework30Agost.h"
+
+  export *
+  module * { export * }
+}
+
+module Framework30Agost.Swift {
+    header "Framework30Agost-Swift.h"
+    requires objc
+}
